@@ -23,14 +23,12 @@ body {
     border: 2px solid #333333;
     border-radius: 10px;
     padding: 20px;
-    width: 500px;
 }
 
 .center_box {
     background: transparent;
     border-radius: 10px;
     padding: 20px;
-    width: 500px;
 }
 .center-box h2,
 .center_box h2 {
@@ -103,9 +101,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ffffff;
     cursor: pointer;
     text-decoration: none;
-    color: #333;
+    color:  #000000;
     font-weight: bold;
     font-size: 18px;
     transition: background-color 0.3s ease-in-out;
@@ -120,5 +119,5 @@ body {
 
 .button:active {
     background-color: red;
-    color: white;
+    color:  #2aff00;
 }
