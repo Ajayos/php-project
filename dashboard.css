@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E5E5E5;
+}
+body {
+    background-image: url("bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center-box {
+    background: linear-gradient(to bottom, #FFFFFF, #E5E5E5);
+    border: 2px solid #333333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+}
+
+.center_box {
+    background: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+}
+.center-box h2,
+.center_box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.center-box form,
+.center_box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.center_box label,
+.center-box label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.center-box input[type="text"],
+.center-box input[type="radio"],
+.center_box input[type="text"],
+.center_box input[type="radio"] {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.center-box input[type="submit"],
+.center_box input[type="submit"] {
+    background-color: #00ff04;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+.center-box input[type="reset"],
+.center_box input[type="reset"] {
+    background-color: #ff4d4d;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+.input_ {
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.button {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+    border: 2px solid #F7F7F7;
+}
+
+.button:hover {
+    background-color: #000000;
+    border-color: red;
+    color: white;
+}
+
+.button:active {
+    background-color: red;
+    color: white;
+}
